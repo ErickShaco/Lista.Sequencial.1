@@ -1,0 +1,13 @@
+// Faça um algoritmo que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário
+
+const prompt = require("prompt-sync")()
+
+const lado1 = parseInt(prompt(`Digite o comprimento do lado por favor`))
+
+const lado2 = parseInt(prompt(`Digite o comprimento do lado por favor`))
+
+const area = (lado1 * lado2) * 2
+
+console.log(`O dobro da area do quadrado é ${area}`)
+
+ 
