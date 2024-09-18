@@ -6,8 +6,12 @@ const lado1 = parseInt(prompt(`Digite o comprimento do lado por favor`))
 
 const lado2 = parseInt(prompt(`Digite o comprimento do lado por favor`))
 
-const area = (lado1 * lado2) * 2
 
-console.log(`O dobro da area do quadrado é ${area}`)
+const area = lado1 * lado2
+
+const dobro = area * 2
+
+console.log(`A area do quadrado é ${area} e o seu dobro é ${dobro}`)
+
 
  
